@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 html{
     font-size: 62.5%;
 }
@@ -26,7 +28,9 @@ h6 {
 li{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+.container-mae{
+    display: flex;
+}
 
 .head-container{
     padding: 2rem;
@@ -40,13 +44,11 @@ li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container{
-    max-width: 144rem;
-    margin: 0 auto;
-    padding: 3rem;
+
+
+.hamburger1 img{
+    max-width:100%;
 }
-
-
 
 .hamburger1 img{
     max-width:100%;
@@ -67,21 +69,23 @@ li{
 
 .burger-title{
     text-align: center;
-    margin: -2rem;
+    margin: 1.5rem;
     text-decoration:overline;
 }
 
 .hamburger-list-item {
-    display: grid;
+    display: inline-block;
     grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
     gap: 4rem;
     margin-left: 2rem;
     margin-top: 2rem;
 }
-.hamburger-list-item{
+.hamburger-list-item-a{
     max-width: 40rem; /* É ESSE AQUI QUE DEIXA QUADRADINHO */
+
 }
 
 .hamburger-desc{
     margin-left: .8rem;
 }
+
