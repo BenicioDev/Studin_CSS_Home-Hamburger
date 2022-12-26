@@ -124,3 +124,36 @@ li{
     margin-left: .8rem;
 }
 
+.btn-container{
+    display: grid;
+    position: bottom;
+    background: blue;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 4rem;
+}
+
+.btn-add{
+    color: red;
+    padding: 2rem;
+}
+
+.btn-container1{
+    display: grid;
+    position: bottom;
+    background: blue;
+    text-align: center;
+    margin: 2rem;
+    margin-top: 8.8rem;
+    margin-left: -1.6rem;
+    width: 40rem;
+    height: 5.9rem;
+}
+.btn-add1{
+    border: none;
+    padding: 2rem;
+    background-color: black;
+}
+.text-btn{
+    color:wheat
+}
