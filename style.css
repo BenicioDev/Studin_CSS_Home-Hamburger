@@ -30,18 +30,23 @@ li{
     margin: .3rem;
 }
 
+.container-mae{
+    display: flex;
+}
+
 .head-container{
-    width: 132.5rem;
-    max-width: 132.5rem;
+    max-width: 144rem;
     padding: 2rem;
     background-color: black;
     transition: all 300ms ease-in-out;
     transform: scale(1);
+
 }
 
 .head{
     color: rgb(152, 3, 3);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .links-container{
@@ -61,10 +66,6 @@ li{
     text-decoration: none;
     float: right;
     margin-top: -3rem;
-}
-
-.container-mae{
-    display: flex;
 }
 
 .cardapio-container-geral{
@@ -120,40 +121,5 @@ li{
     height: 50rem;
 }
 
-.hamburger-desc{
-    margin-left: .8rem;
-}
 
-.btn-container{
-    display: grid;
-    position: bottom;
-    background: blue;
-    text-align: center;
-    margin: 2rem;
-    margin-top: 4rem;
-}
 
-.btn-add{
-    color: red;
-    padding: 2rem;
-}
-
-.btn-container1{
-    display: grid;
-    position: bottom;
-    background: blue;
-    text-align: center;
-    margin: 2rem;
-    margin-top: 8.8rem;
-    margin-left: -1.6rem;
-    width: 40rem;
-    height: 5.9rem;
-}
-.btn-add1{
-    border: none;
-    padding: 2rem;
-    background-color: black;
-}
-.text-btn{
-    color:wheat
-}
